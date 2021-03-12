@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(3, 172, 172);
+}
+
+.pokemon-li {
+  color: rgb(236, 150, 19);
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  text-transform: capitalize;
+  background-color: #41d3ec;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 5px;
+  box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-li img {
+  width: 13%;
+  margin: 0px 3px 0 0;
+}
+
+.header {
+  color: #a09af7;
+  text-align: center;
+}
+
+.pokemon-li img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.list-group {
+  justify-content: space-around;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.list-group li {
+  padding: 10px;
+  margin: 8px;
+  width: 238px;
+}
+
+#poke-img {
+  width: 150px;
+  height: 120px;
+}
+
+.pokemon-list {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokeball {
+  border-radius: 25px;
+}
+
+.pokeball:hover {
+  transform: rotate3d(5, -3, 11, 333deg) !important;
+}
+
+.poke-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.poke-btn button {
+  margin: 5px;
+  padding: 6px 20px 6px 20px;
+  font-size: 16px;
+  border: 0;
+  background-color: #ffcb05;
+  color: #ffffff;
+  border-radius: 17px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+}
+
+.poke-btn button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #c6a008;
+}
+
+.pokemon-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-header {
+  width: 55%;
+}
