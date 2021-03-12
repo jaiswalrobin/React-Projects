@@ -11,7 +11,6 @@ class PokemonList extends Component {
     this.nextResults = this.nextResults.bind(this);
   }
 
-  // state.fetchResults = state.fetchResults.bind(this);
   componentDidMount() {
     axios.get(this.state.currentUrl).then((res) => {
       let data = res.data.results;
@@ -101,7 +100,4 @@ class PokemonList extends Component {
   }
 }
 
-// The Truth
-// const mat = new PokemonList();
-// console.log(mat.__proto__.__proto__ === Component.prototype); // True
 export default PokemonList;
