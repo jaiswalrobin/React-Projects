@@ -20,8 +20,6 @@ class PokemonList extends Component {
           img: `https://pokeres.bastionbot.org/images/pokemon/${index + 1}.png`,
         };
       });
-      // console.log(res.data);
-      // console.log(data[0].url);
 
       this.setState({
         pokeList: boo,
